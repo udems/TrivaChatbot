@@ -128,3 +128,7 @@ li {
     align-self: flex-end;
     color: white;
 }
+@media (max-width: 600px) {
+  #chat-container {
+    width: 95%;
+  }

@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Triva Chatbot</title>
+    <title>Trivia Chatbot</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>Triva Chatbot</header>
-    <main>
-        <div>
+    <div id="chat-container">
+        <header>
+            <img src="assets/logo.png" alt="Chatbot Logo" id="logo">
+            <h1>Trivia Chatbot</h1>
+        </header>
+        <main id="chatbox"></main>
+        <div id="input-container">
             <form id="answer" action="" method="post">
-                <input type="text" placeholder="Type your answer here">
+                <input type="text" id="userInput" placeholder="Type your answer here" autocomplete="off">
             </form>
-            <button>send</button>
+            <button id="sendButton">Send</button>
         </div>
-    </main>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

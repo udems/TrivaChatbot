@@ -62,10 +62,7 @@ body #chat-container #chatbox {
     background-color: #e5ddd5;
 }
 
-@media (max-width: 600px) {
-  #chat-container {
-    width: 95%;
-  }
+
 #chatbox div {
     margin: 5px 0;
     padding: 10px;
@@ -82,13 +79,13 @@ body #chat-container #chatbox {
   border-bottom-right-radius: 10px;
 }
 
-#input-container #userInput {
+ #userInput {
   flex: 1;
   padding: 12px;
   border: 1px solid #ddd;
   border-radius: 20px;
   margin-right: 10px;
-  width:400px;
+  
   
 }
 #input-container button {

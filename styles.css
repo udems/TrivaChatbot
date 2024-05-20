@@ -62,7 +62,10 @@ body #chat-container #chatbox {
     background-color: #e5ddd5;
 }
 
-
+@media (max-width: 600px) {
+  #chat-container {
+    width: 95%;
+  }
 #chatbox div {
     margin: 5px 0;
     padding: 10px;

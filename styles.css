@@ -85,9 +85,9 @@ body #chat-container #chatbox {
   border: 1px solid #ddd;
   border-radius: 20px;
   margin-right: 10px;
+   width:300px;
 }
   
-}
 #input-container button {
   padding: 10px 20px;
   background-color: #34b7f1;

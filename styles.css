@@ -24,14 +24,14 @@ body #chat-container {
   display: flex;
   flex-direction: column;
 }
-body #chat-container header {
+ header {
   background-color: #075e54;
   color: white;
   padding: 10px;
   display: flex;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  align-items: center;
+  justify-content: center;
   letter-spacing: 0.5px;
 }
 body #chat-container header #logo {
@@ -91,4 +91,15 @@ body #chat-container #chatbox {
 li {
   list-style: none;
   background-color: #34a2db;
+}
+.bot {
+    background-color: #c6f7f8;
+    align-self: flex-start;
+
+}
+
+.user {
+    background-color: #34b7f1;
+    align-self: flex-end;
+    color: white;
 }

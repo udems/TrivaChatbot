@@ -62,10 +62,7 @@ body #chat-container #chatbox {
     flex-direction: column;
     background-color: #e5ddd5;
 }
-@media (max-width: 600px) {
-  #chat-container {
-    width: 95%;
-  }
+
 
 #chatbox div {
     margin: 5px 0;

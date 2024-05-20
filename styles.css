@@ -96,7 +96,7 @@ body #chat-container #chatbox {
   border: none;
   border-radius: 20px;
   transition: background-color 1s ease-in;
-   width: calc(100% - 70px);
+   
 }
 #input-container button:hover {
   cursor: pointer;
